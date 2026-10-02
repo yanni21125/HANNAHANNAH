@@ -1,0 +1,42 @@
+/* Enchanted fairytale theme */
+:root {
+  --night: #101832;
+  --blue: #3455a4;
+  --gold: #ffd875;
+  --cream: #fff9ec;
+  --pink: #ed7891;
+}
+
+body {
+  margin: 0;
+  color: var(--cream);
+  background: radial-gradient(ellipse at top, #425fa8, var(--night) 72%);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3 {
+  color: var(--gold);
+  text-shadow: 0 2px 12px #ffd87566;
+}
+
+a {
+  color: var(--gold);
+  text-underline-offset: 0.2em;
+  text-decoration-color: var(--pink);
+}
+
+button {
+  padding: 0.75em 1.25em;
+  color: var(--night);
+  background: linear-gradient(135deg, #fff0b8, var(--gold));
+  border: 1px solid var(--cream);
+  border-radius: 999px;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 16px #0005;
+}
+
+button:hover {
+  background: var(--cream);
+  transform: translateY(-1px);
+}
